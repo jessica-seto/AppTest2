@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appnov26">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Lab0Activity" />
+        <activity android:name=".Lab1Activity" />
+        <activity android:name=".VIR" />
+        <activity android:name=".EquivalentResistance" />
+        <activity android:name=".TimeConstant" />
+        <activity android:name=".Lab7Activity" />
+        <activity android:name=".TimeConstantRL" />
+        <activity android:name=".PassiveFilterCutoff" />
+        <activity android:name=".Lab9Activity" />
+        <activity android:name=".Lab5Activity" />
+        <activity android:name=".Inverting" />
+        <activity android:name=".NonInverting"></activity>
+    </application>
+
+</manifest>
