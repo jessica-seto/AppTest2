@@ -29,5 +29,14 @@ public class Lab1Activity extends AppCompatActivity {
                 startActivity(lab1EQRintent);
             }
         });
+
+        Button lab1LED = (Button) findViewById(R.id.lab1_led);
+        lab1LED.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent lab1LEDintent = new Intent(getApplicationContext(), LEDDiagram.class);
+                startActivity(lab1LEDintent);
+            }
+        });
     }
 }

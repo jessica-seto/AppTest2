@@ -27,7 +27,11 @@
         <activity android:name=".Lab9Activity" />
         <activity android:name=".Lab5Activity" />
         <activity android:name=".Inverting" />
-        <activity android:name=".NonInverting"></activity>
+        <activity android:name=".NonInverting" />
+        <activity
+            android:name=".LEDDiagram"
+            android:label="@string/title_activity_leddiagram"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
