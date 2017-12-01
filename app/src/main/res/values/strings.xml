@@ -5,4 +5,6 @@
     <string name="title_activity_critically_damped">CriticallyDamped</string>
     <string name="title_activity_voltage_divider">VoltageDivider</string>
     <string name="title_activity_multimeter">Multimeter</string>
+    <string name="title_activity_lab3">Lab3Activity</string>
+    <string name="title_activity_thevenin_equiv">TheveninEquiv</string>
 </resources>

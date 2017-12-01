@@ -48,6 +48,14 @@
         <activity
             android:name=".Multimeter"
             android:label="@string/title_activity_multimeter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lab3Activity"
+            android:label="@string/title_activity_lab3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TheveninEquiv"
+            android:label="@string/title_activity_thevenin_equiv"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
