@@ -31,6 +31,14 @@
         <activity
             android:name=".LEDDiagram"
             android:label="@string/title_activity_leddiagram"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lab8Activity"
+            android:label="@string/title_activity_lab8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CriticallyDamped"
+            android:label="@string/title_activity_critically_damped"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
