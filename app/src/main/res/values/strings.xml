@@ -3,4 +3,6 @@
     <string name="title_activity_leddiagram">LEDDiagram</string>
     <string name="title_activity_lab8">Lab8Activity</string>
     <string name="title_activity_critically_damped">CriticallyDamped</string>
+    <string name="title_activity_voltage_divider">VoltageDivider</string>
+    <string name="title_activity_multimeter">Multimeter</string>
 </resources>
