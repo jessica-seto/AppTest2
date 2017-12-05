@@ -55,7 +55,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rl_input2"
-        app:srcCompat="@drawable/rlcircuit" />
+        app:srcCompat="@drawable/rlcircuit2" />
 
     <Button
         android:id="@+id/rl_calculate"

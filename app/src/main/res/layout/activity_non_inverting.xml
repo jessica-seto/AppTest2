@@ -31,7 +31,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:srcCompat="@drawable/noninvertingamp"
+        app:srcCompat="@drawable/noninverting_amp2"
         tools:ignore="VectorDrawableCompat" />
 
     <EditText
