@@ -56,7 +56,9 @@
         <activity
             android:name=".TheveninEquiv"
             android:label="@string/title_activity_thevenin_equiv"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OpAmpDiagram" />
+        <activity android:name=".Lab4Activity"></activity>
     </application>
 
 </manifest>
