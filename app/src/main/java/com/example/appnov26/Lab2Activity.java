@@ -23,5 +23,26 @@ public class Lab2Activity extends AppCompatActivity {
 
         });
 
+        Button lab2_eqr = (Button) findViewById(R.id.lab2_eqr);
+        lab2_eqr.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent EQR = new Intent(getApplicationContext(), EquivalentResistance.class);
+                startActivity(EQR);
+            }
+
+        });
+
+        Button lab2_multi = (Button) findViewById(R.id.lab2_multi);
+        lab2_multi.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent multi = new Intent(getApplicationContext(), Multimeter.class);
+                startActivity(multi);
+            }
+
+        });
+
+
     }
 }

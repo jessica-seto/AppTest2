@@ -38,5 +38,14 @@ public class Lab1Activity extends AppCompatActivity {
                 startActivity(lab1LEDintent);
             }
         });
+
+        Button lab1multi = (Button) findViewById(R.id.lab1_multimeter);
+        lab1multi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent lab1multiintent = new Intent(getApplicationContext(), Multimeter.class);
+                startActivity(lab1multiintent);
+            }
+        });
     }
 }

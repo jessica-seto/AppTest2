@@ -22,5 +22,23 @@ public class Lab0Activity extends AppCompatActivity {
                 startActivity(lab0_multimeter);
             }
         });
+
+        Button lab0_pwr = (Button) findViewById(R.id.lab0_pwr);
+        lab0_pwr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent lab0_pwr = new Intent(getApplicationContext(), PowerSource.class);
+                startActivity(lab0_pwr);
+            }
+        });
+
+        Button lab0_vir = (Button) findViewById(R.id.lab0_vir);
+        lab0_vir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent lab0_vir = new Intent(getApplicationContext(), VIR.class);
+                startActivity(lab0_vir);
+            }
+        });
     }
 }

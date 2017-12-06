@@ -3,11 +3,11 @@ package com.example.appnov26;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Multimeter extends AppCompatActivity {
+public class PowerSource extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_multimeter);
+        setContentView(R.layout.activity_power_source);
     }
 }

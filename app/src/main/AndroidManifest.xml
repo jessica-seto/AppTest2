@@ -46,10 +46,6 @@
             android:label="@string/title_activity_voltage_divider"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Multimeter"
-            android:label="@string/title_activity_multimeter"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Lab3Activity"
             android:label="@string/title_activity_lab3"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -58,11 +54,9 @@
             android:label="@string/title_activity_thevenin_equiv"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".OpAmpDiagram" />
-        <activity android:name=".Lab4Activity"></activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+        <activity android:name=".Lab4Activity" />
+        <activity android:name=".Multimeter" />
+        <activity android:name=".PowerSource"></activity>
     </application>
 
 </manifest>
