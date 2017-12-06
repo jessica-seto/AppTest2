@@ -57,26 +57,8 @@
             android:name=".TheveninEquiv"
             android:label="@string/title_activity_thevenin_equiv"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Lab6Activity"
-            android:label="@string/title_activity_lab6"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Arduino"
-            android:label="@string/title_activity_arduino"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Lab4Activity"
-            android:label="@string/title_activity_lab4"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Potentiometer"
-            android:label="@string/title_activity_potentiometer"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".OpAmpMain"
-            android:label="@string/title_activity_op_amp_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".OpAmpDiagram" />
+        <activity android:name=".Lab4Activity"></activity>
     </application>
 
 </manifest>

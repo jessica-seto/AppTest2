@@ -7,9 +7,5 @@
     <string name="title_activity_multimeter">Multimeter</string>
     <string name="title_activity_lab3">Lab3Activity</string>
     <string name="title_activity_thevenin_equiv">TheveninEquiv</string>
-    <string name="title_activity_lab6">Lab6Activity</string>
-    <string name="title_activity_arduino">Arduino</string>
     <string name="title_activity_lab4">Lab4Activity</string>
-    <string name="title_activity_potentiometer">Potentiometer</string>
-    <string name="title_activity_op_amp_main">OpAmpMain</string>
 </resources>
