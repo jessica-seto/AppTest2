@@ -10,124 +10,129 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:text="Pocket Circuits TA"
         android:textAlignment="center"
         android:textColor="@android:color/holo_green_light"
         android:textSize="30sp"
         android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="4dp" />
 
     <Button
         android:id="@+id/buttonlab0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="116dp"
         android:text="Lab 0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:layout_marginLeft="69dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/buttonlab1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="68dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="116dp"
         android:text="Lab 1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:layout_marginRight="68dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/buttonlab2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="36dp"
         android:text="Lab 2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonlab0"
-        android:layout_marginLeft="69dp" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonlab0" />
 
     <Button
         android:id="@+id/buttonlab4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="36dp"
         android:text="Lab 4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonlab2"
-        android:layout_marginLeft="69dp" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonlab2" />
 
     <Button
         android:id="@+id/buttonlab6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="36dp"
         android:text="Lab 6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonlab4"
-        android:layout_marginLeft="69dp" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonlab4" />
 
     <Button
         android:id="@+id/buttonlab8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="36dp"
         android:text="Lab 8"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonlab6"
-        android:layout_marginLeft="69dp" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonlab6" />
 
     <Button
         android:id="@+id/buttonlab3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="68dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="36dp"
         android:text="Lab 3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonlab1"
-        android:layout_marginRight="68dp" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonlab1" />
 
     <Button
         android:id="@+id/buttonlab5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="68dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="36dp"
         android:text="Lab 5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonlab3"
-        android:layout_marginRight="68dp" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonlab3" />
 
     <Button
         android:id="@+id/buttonlab7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="68dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="36dp"
         android:text="Lab 7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonlab5"
-        android:layout_marginRight="68dp" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonlab5" />
 
     <Button
         android:id="@+id/buttonlab9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="68dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="36dp"
         android:text="Lab 9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonlab7"
-        android:layout_marginRight="68dp" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonlab7" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="81dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:rotation="18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/evan" />
 
 </android.support.constraint.ConstraintLayout>

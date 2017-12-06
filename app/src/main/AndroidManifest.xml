@@ -59,6 +59,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".OpAmpDiagram" />
         <activity android:name=".Lab4Activity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
