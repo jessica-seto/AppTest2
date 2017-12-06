@@ -24,14 +24,38 @@
         android:id="@+id/lab2_voltagedivider"
         android:layout_width="wrap_content"
         android:layout_height="56dp"
-        android:layout_marginBottom="400dp"
+        android:layout_marginBottom="368dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="32dp"
         android:text="Voltage divider"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/labTitleTextView2" />
+        app:layout_constraintTop_toBottomOf="@+id/lab2TitleTextView" />
+
+    <Button
+        android:id="@+id/lab2_eqr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:text="Equivalent Resistance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lab2_voltagedivider" />
+
+    <Button
+        android:id="@+id/lab2_multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:text="Multimeter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lab2_eqr" />
 </android.support.constraint.ConstraintLayout>
