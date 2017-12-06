@@ -69,6 +69,17 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+/*
+        Button lab6 = (Button) findViewById(R.id.buttonlab6);
+        lab6.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent lab6intent = new Intent(getApplicationContext(), Lab6Activity.class);
+                startActivity(lab6intent);
+            }
+
+        });
+*/
         Button lab7 = (Button) findViewById(R.id.buttonlab7);
         lab7.setOnClickListener(new View.OnClickListener(){
             @Override

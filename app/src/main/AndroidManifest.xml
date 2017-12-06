@@ -56,7 +56,8 @@
         <activity android:name=".OpAmpDiagram" />
         <activity android:name=".Lab4Activity" />
         <activity android:name=".Multimeter" />
-        <activity android:name=".PowerSource"></activity>
+        <activity android:name=".PowerSource" />
+        <activity android:name=".TheveninDiagram"></activity>
     </application>
 
 </manifest>

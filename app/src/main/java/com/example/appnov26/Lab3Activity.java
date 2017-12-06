@@ -22,7 +22,7 @@ public class Lab3Activity extends AppCompatActivity {
         lab3_thevenin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent lab3_thevenin = new Intent(getApplicationContext(), TheveninEquiv.class);
+                Intent lab3_thevenin = new Intent(getApplicationContext(), TheveninDiagram.class);
                 startActivity(lab3_thevenin);
             }
         });
