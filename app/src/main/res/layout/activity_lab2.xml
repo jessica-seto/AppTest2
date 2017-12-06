@@ -8,13 +8,14 @@
 
     <TextView
         android:id="@+id/lab2TitleTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="28dp"
+        android:layout_width="188dp"
+        android:layout_height="45dp"
         android:layout_marginTop="24dp"
+        android:fontFamily="@font/allerta_stencil"
         android:text="Lab 2 Tools"
         android:textAlignment="center"
         android:textColor="@android:color/holo_green_light"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -34,4 +35,29 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/labTitleTextView2" />
+
+    <Button
+        android:id="@+id/lab2_eqr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:text="Equivalent Resistance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lab2_voltagedivider" />
+
+    <Button
+        android:id="@+id/lab2_multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:text="Multimeter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lab2_eqr" />
+
 </android.support.constraint.ConstraintLayout>

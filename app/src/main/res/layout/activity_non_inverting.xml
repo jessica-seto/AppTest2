@@ -9,16 +9,16 @@
 
     <TextView
         android:id="@+id/editText"
-        android:layout_width="352dp"
-        android:layout_height="44dp"
+        android:layout_width="377dp"
+        android:layout_height="46dp"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:fontFamily="@font/allerta_stencil"
         android:inputType="textPersonName"
         android:text="Non-Inverting Op Amp Calculator"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="22sp"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
